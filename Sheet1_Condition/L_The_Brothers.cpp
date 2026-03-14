@@ -3,11 +3,11 @@
 using namespace std;
 int main()
 {
-  string f1,s1,f2,s2;
+  string F1,S1,F2,S2;
   cout << " Enter the first name + the second name :\n";
-  cin >> f1 >> s1 ;
-  cin >> f2 >> s2;
-  if(s1==s2)
+  cin >> F1 >> S1 ;
+  cin >> F2 >> S2;
+  if(S1==S2)
   {
     cout << "AER BROTHERS\n";
   }
