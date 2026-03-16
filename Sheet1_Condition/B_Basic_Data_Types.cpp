@@ -9,8 +9,6 @@ int main()
   float fl;
   double d;
   cin >> num >> lo >> ch >> fl >> d ;
-
-  cout << "\n*********************\n";
   
   cout << num << "\n";
   cout << lo << "\n";
