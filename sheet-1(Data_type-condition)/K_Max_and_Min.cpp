@@ -5,16 +5,9 @@ int main()
 {
   int a,b,c;
   cin >> a >> b >> c;
-  if(a>b&&a>c)
-  {
-    cout << b << c << a << "\n";
-  }
-else if(b>c&&b>a)
-{
-  cout << c << b << "\n";
-}
-else 
-cout << c << "\n";
-
+  
+  int minimum = min(a,min(b,c));
+  int maximum = max(a,min(b,c));
+  cout << minimum << " " << maximum << "\n";
   return 0;
 }            
