@@ -8,7 +8,7 @@ int main()
   cin >> a;
   cout << "Enter the number tow :\n";
   cin >>b;
-  if(1<=a,b<=300)
+  if(1<=a,b<=10^3)
   {
     cout << "Floor " << a << "/" << b << "= " << floor(a/b) <<"\n";
   cout << "ceil " << a << "/" << b << "= " << ceil(a/b) <<"\n";

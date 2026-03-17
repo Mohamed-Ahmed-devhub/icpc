@@ -6,7 +6,7 @@ int main()
   float x, y;
   cout << "Enter two numbers X and Y : \n";
   cin >> x >> y;
-  if(x >= 1 && x <= 100000 && y >= 1 && y <= 100000)
+  if( 1<= x,y <= 10^10 )
   {
       cout << x << " + " << y << " = " << x+y << "\n";
       cout << x << " * " << y << " = " << x*y << "\n";

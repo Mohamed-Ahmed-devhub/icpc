@@ -5,14 +5,12 @@ int main()
 {
   int a,b;
   cin >> a >> b;
-  if(0<=a,b<=100)
-  {
-    if(a>=b)
+    if(a%b==0||b%a==0)
     {
-      cout << "yes\n";
+      cout << "Multiples\n";
     }
     else
-    cout << "No\n";
-  }
+    cout << "No Multiples\n";
   return 0;
-}                 
+  } 
+                
