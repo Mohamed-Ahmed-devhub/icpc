@@ -13,4 +13,3 @@ int main()
     cout << "No Multiples\n";
   return 0;
   } 
-                
