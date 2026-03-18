@@ -1,13 +1,13 @@
 #include<iostream>
-#include<cmath>
+#include<algorithm>
 using namespace std;
 int main()
 {
   int a,b,c;
   cin >> a >> b >> c;
   
-  int minimum = min(a,min(b,c));
-  int maximum = max(a,min(b,c));
+  int minimum = min({a,b,c});
+  int maximum = max({a,b,c});
   cout << minimum << " " << maximum << "\n";
   return 0;
 }            
