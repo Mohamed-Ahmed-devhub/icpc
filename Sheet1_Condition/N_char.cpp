@@ -1,17 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-  char x;
-  cin >> x;
-  if(x>='A'&&x<='Z')
-  {
-    x+=32;
+int main() {
+    char X;
+    cin >> X;
+    if (X >= 'A' && X <= 'Z') {
+        X = X + 32; 
+    } 
+    else {
+        X = X - 32; 
     }
-    else if(x>='a'&&x<='a')
-  {
-    x-=32;
-    }
-  cout << x << "\n";
-  return 0;
-}    
+
+    cout << X << endl;
+
+    return 0;
+}
