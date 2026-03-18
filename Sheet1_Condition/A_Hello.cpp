@@ -1,10 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-  cout << "Enter The Name\n";
-  string name;
-  cin >> name;
-  cout <<" Hello " << name <<"\n";
-  return 0;
+int main() {
+    string S;
+    cin >> S;
+    cout << "Hello, " << S << endl;
+    return 0;
 }

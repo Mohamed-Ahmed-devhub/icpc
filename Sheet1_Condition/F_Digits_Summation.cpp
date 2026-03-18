@@ -1,12 +1,10 @@
-#include<iostream>
 
+#include <iostream>
 using namespace std;
-int main()
-{
-  int n, m;
-  cin >> n >> m;
-  n = n%10;
-  m = m%10;
-  cout << n+m << "\n";
-  return 0;
+int main() {
+    long long n, m,result ;
+    cin >> n >> m;
+    result = (n % 10) + (m % 10);
+    cout << result << endl;
+    return 0;
 }

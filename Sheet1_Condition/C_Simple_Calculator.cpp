@@ -3,15 +3,10 @@
 using namespace std;
 int main()
 {
-  float x, y;
-  cout << "Enter two numbers X and Y : \n";
+  long long x, y;
   cin >> x >> y;
-  
-  
       cout << x << " + " << y << " = " << x+y << "\n";
       cout << x << " * " << y << " = " << x*y << "\n";
       cout << x << " - " << y << " = " << x-y << "\n";
-      cout << x << " / " << y << "=  " << x/y << "\n";
-  
   return 0;
 }

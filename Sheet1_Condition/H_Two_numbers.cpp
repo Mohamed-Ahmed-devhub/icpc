@@ -1,18 +1,14 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
-int main()
-{
-  double a,b;
-  cout << "ENter the number one :\n";
-  cin >> a;
-  cout << "Enter the number tow :\n";
-  cin >>b;
-  if(1<=a,b<=10^3)
-  {
-    cout << "Floor " << a << "/" << b << "= " << floor(a/b) <<"\n";
-  cout << "ceil " << a << "/" << b << "= " << ceil(a/b) <<"\n";
-  cout << "round " << a << "/" << b << "= " << round(a/b) <<"\n";
-  }
-  return 0;
-}                 
+
+int main() {
+    double a, b;
+    cin >> a >> b;
+    double result = a / b;
+    cout << "floor " << a << " / " << b << " = " << floor(result) << "\n";
+    cout << "ceil " << a << " / " << b << " = " << ceil(result) << "\n";
+    cout << "round " << a << " / " << b << " = " << round(result) << "\n";
+
+    return 0;
+}
