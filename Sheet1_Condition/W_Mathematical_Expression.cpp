@@ -2,6 +2,30 @@
 using namespace std;
 int main()
 {
+  long long A,B,C;
+  char S,Q;
+  cin >> A >> S >> B >> Q >> C;
+  if(S=='+')
+  {
+    if(A+B==C)
+      cout << "Yes\n";
+    else
+      cout << A+B << "\n";
+  }
+  if(S=='-')
+  {
+    if(A-B==C)
+      cout << "Yes\n";
+    else
+      cout << A-B << "\n";
+  }
+  if(S=='*')
+  {
+    if(A*B==C)
+      cout << "Yes\n";
+    else
+      cout << A*B << "\n";
+  }
   
   return 0;
 }
