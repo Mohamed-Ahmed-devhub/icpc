@@ -2,6 +2,35 @@
 using namespace std;
 int main()
 {
-  
+  int A,B;
+  char S;
+  cin >> A >> S >> B;
+  if(S=='>')
+  {
+    if(A>B)
+    {
+      cout << "Right\n";
+    }
+    else 
+    cout <<"Wrong\n";
+  }
+  if(S=='<')
+  {
+    if(A<B)
+    {
+      cout << "Right\n";
+    }
+    else 
+    cout <<"Wrong\n";
+  }
+  if(S=='>')
+  {
+    if(A==B)
+    {
+      cout << "Right\n";
+    }
+    else 
+    cout <<"Wrong\n";
+  }
   return 0;
 }
