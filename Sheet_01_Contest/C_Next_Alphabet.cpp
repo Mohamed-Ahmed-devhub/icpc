@@ -6,10 +6,9 @@ int main()
   cin >> c;
   if(c=='z')
   {
-    cout << '65';
+    cout <<'a' << "\n";
   }
   else
-  c++;  
-  cout << c;
+  cout << ++c <<"\n";  
   return 0;
 }
