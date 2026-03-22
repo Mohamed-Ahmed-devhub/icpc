@@ -15,9 +15,5 @@ int main()
   cout << ch << "\n";
   cout << fl << "\n";
   cout << d << "\n";
-  
-
-  
-
   return 0;
 }
