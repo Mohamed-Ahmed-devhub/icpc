@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int N;
     cin >> N;
-  
+    
     int first = N / 10;   
     int last = N % 10;   
     if (last == 0) {
