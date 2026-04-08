@@ -1,16 +1,12 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    if (n < 2) { 
-        cout << -1 << endl; 
-    } else {
-        for (int i = 2; i <= n; i += 2) {
-            cout << i << endl;
-        }
-    }
-    return 0;
+int main()
+{
+	int x;
+	cin >> x;
+	if (x % 2 == 0)
+		cout << "YES";
+	else
+		cout << "NO";
+	return 0;
 }
