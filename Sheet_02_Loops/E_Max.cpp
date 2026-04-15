@@ -2,12 +2,18 @@
 using namespace std;
 int main() 
 {
-  int a, b, c, d;
-  cin >> a >> b >> c >> d ;
-  int max1 = max(a, b);
-  int max2 = max(c, d);
-  int final_max = max(max1, max2);
-  cout << final_max << endl;
-
+  int N;
+  cin >> N;
+  int max = 0;
+  for (int i = 0; i < N; i++)
+  {
+    int X;
+    cin >> X;
+    if (X > max)
+    {
+      max = X;
+    }
+  }
+  cout << max << endl;
   return 0;
 }
