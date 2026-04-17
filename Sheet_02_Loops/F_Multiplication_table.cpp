@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() 
 {
     int N;
@@ -9,6 +8,6 @@ int main()
     {
         cout << N << " * " << j  << " = " << N * j << endl;
     } 
-  
+    
     return 0;
 }
